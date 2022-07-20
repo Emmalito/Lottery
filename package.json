@@ -1,0 +1,26 @@
+{
+  "name": "lottery",
+  "version": "1.0.0",
+  "description": "Implementation of a lottery on the Ethereum blockchain using smart contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --openssl-legacy-provider"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emmalito/Lottery.git"
+  },
+  "author": "Emmalito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emmalito/Lottery/issues"
+  },
+  "homepage": "https://github.com/Emmalito/Lottery#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.11",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.0.0",
+    "solc": "^0.8.15",
+    "web3": "^1.7.4"
+  }
+}
